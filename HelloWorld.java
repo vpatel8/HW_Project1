@@ -1,13 +1,13 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-
-public class HelloWorldTest {
-
-/** A test that always fails. **/
-	@Test public void helloTest() {
-		HelloWorld hw = new HelloWorld();
-		String output = hw.getM();
-        Assert.assertEquals("Hello World!", output)
-    }
+import java.util.*;
+public class HelloWorld
+{
+       String message;
+       public HelloWorld()
+       {  
+         	message = "Hello, World!";
+       }
+       public String getM()
+       {
+		return null;
+       }
 }
