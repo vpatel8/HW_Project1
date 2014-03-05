@@ -8,6 +8,6 @@ public class HelloWorld
        }
        public String getM()
        {
-		return ""
+		return "";
        }
 }
