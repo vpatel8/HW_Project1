@@ -2,6 +2,7 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 import junit.framework.TestCase;
+import helloworld.HelloWorld;
 
 public class HelloWorldTest extends TestCase{
 
