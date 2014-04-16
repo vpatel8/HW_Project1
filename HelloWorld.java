@@ -1,15 +1,12 @@
-package helloworld;
-
-import java.util.*;
 public class HelloWorld
 {
-       String message;
-       public HelloWorld()
-       {  
-         	message = "Hello, World!";
-       }
-       public String getM()
-       {
+	String message;
+	public HelloWorld()
+	{  
+		message = "Hello, World!";
+	}
+	public String getM()
+	{
 		return null;
-       }
+	}
 }

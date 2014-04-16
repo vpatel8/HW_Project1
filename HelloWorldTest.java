@@ -1,19 +1,16 @@
-import org.junit.Assert;
-import org.junit.Before;
-import org.junit.Test;
-import junit.framework.TestCase;
-//import helloworld.HelloWorld;
+import org.junit.*;
+import static org.junit.Assert.*;
+import java.util.*;
 
-public class HelloWorldTest extends TestCase{
+public class HelloWorldTest {
+	public static void main(String args[]){
+		org.junit.runner.JUnitCore.main("HelloWorldTest");
+	}
+	@Test 
+	public void helloTest() {
+		HelloWorld hworld = new HelloWorld();
+		String output = hworld.getM();
+		assertEquals("Hello, World!", output);
+	}
 
-	public static void main(String args[])
-  	{
-    		org.junit.runner.JUnitCore.main("HelloWorldTest");
-  	}
-/** A test that always fails. **/
-	@Test public void helloTest() {
-		HelloWorld hw = new HelloWorld();
-		String output = hw.getM();
-        	Assert.assertEquals("Hello, World!", output);
-    	}
 }
